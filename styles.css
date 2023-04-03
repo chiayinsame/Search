@@ -2,6 +2,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-weight: 520;
 }
 
 li {
@@ -39,12 +40,14 @@ a:hover {
     grid-column: 1 / 19;
     grid-row: 1 / 1;
     border-radius: 25px;
-    border-color: lightgrey;
+    border-style: hidden;
+    outline: 1px solid lightgrey;
     height: 45px;
     font-size: 20px;
     padding-left: 3%;
     padding-right:3%;
 }
+
 
 #search {
     grid-column: 5 / 9;
@@ -68,4 +71,60 @@ a:hover {
 
 #lucky:hover {
     opacity: 0.6;
+}
+
+.vertical-form-input {
+    display: flex;
+    margin: 1%;
+}
+
+.form {
+    margin-top: 3%;
+}
+
+#subtitle {
+    margin: 1%;
+    color:black;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.pretext {
+    width: 15%;
+}
+
+.advance-form {
+    width: 65%;
+}
+
+#blue-submit {
+    position: absolute;
+    right: 20%;
+    height: 30px;
+    width: auto;
+    margin-top: 1.5%;
+    font-size: 12px;
+    background-color: rgb(11, 125, 232);
+    color: white;
+    border: 0;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    border-radius: 5px;
+    
+}
+
+#advanced-google-icon {
+    width: 6%;
+    height: auto;
+    padding-top: 1.25%;
+    padding-left: 1%;
+}
+
+.red-header {
+    color: rgba(212, 14, 14, 0.918);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 2%;
+    border-bottom: 1px solid lightgrey;
 }
