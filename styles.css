@@ -1,7 +1,16 @@
 .nav-bar {
+    display: flex;
+    justify-content: flex-end;
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    font-weight: 520;
+}
+
+.right-corner {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 1.75%;
     font-weight: 520;
 }
 
@@ -116,8 +125,10 @@ a:hover {
 #advanced-google-icon {
     width: 6%;
     height: auto;
-    padding-top: 1.25%;
     padding-left: 1%;
+    position: relative;
+    bottom: 40px;
+    margin: 0;
 }
 
 .red-header {
