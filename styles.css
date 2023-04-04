@@ -144,6 +144,10 @@ a:hover {
     
 }
 
+#blue-submit:hover {
+    background-color: rgb(0, 102, 255);
+}
+
 #advanced-google-icon {
     width: 6%;
     height: auto;
