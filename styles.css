@@ -66,6 +66,14 @@ a:hover {
     font-size: 16px;
 }
 
+#image-search {
+    grid-column: 6 / 12;
+    grid-row: 2 / 2;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 16px;
+}
+
 #lucky {
     grid-column: 9 / 15;
     grid-row: 2 / 2;
@@ -78,6 +86,10 @@ a:hover {
     opacity: 0.6;
 }
 
+#image-search:hover {
+    opacity: 0.6;
+}
+
 #lucky:hover {
     opacity: 0.6;
 }
@@ -86,6 +98,7 @@ a:hover {
     display: flex;
     margin: 1%;
 }
+
 
 .form {
     margin-top: 3%;
@@ -103,12 +116,21 @@ a:hover {
 }
 
 .advance-form {
-    width: 65%;
+    width: 60%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 16px;
+    border-style: hidden;
+    outline: 1px solid lightgrey;
+}
+
+.advance-form:focus {
+    box-shadow: 0 0 10px lightblue;
 }
 
 #blue-submit {
     position: absolute;
-    right: 20%;
+    right: 23.5%;
     height: 30px;
     width: auto;
     margin-top: 1.5%;
